@@ -1,6 +1,6 @@
 package sazhin.creational.factoryMethod;
 
-public class LuxCar extends Car {
+public class LuxCar extends Car{
     public LuxCar(){
         name = "Luxury Car";
         accessories.add("Leather salon");
