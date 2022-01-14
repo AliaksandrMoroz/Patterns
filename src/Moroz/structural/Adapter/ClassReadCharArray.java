@@ -1,6 +1,6 @@
 package Moroz.structural.Adapter;
 
-public class ClassRaeadCharArray {
+public class ClassReadCharArray {
      static void print(char[] chars){
         for (char el:
              chars) {
