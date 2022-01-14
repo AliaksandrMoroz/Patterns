@@ -9,6 +9,7 @@ public class Fabric {
 
     public static Transport getTransport(int key,String dest){
         Transport current = Catalog.get(key);
+
         if (current==null){
             switch (key){
                 case 1:
@@ -26,8 +27,10 @@ public class Fabric {
                    break;
 
             }
+
             Catalog.put(key,current);
         }
+        current.destination=dest;
         return  current;
     }
 
