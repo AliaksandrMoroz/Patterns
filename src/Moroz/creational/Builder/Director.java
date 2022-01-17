@@ -7,7 +7,7 @@ public class Director {
         this.phoneBuilder = phoneBuilder;
     }
 
-    Phone getPhone(){
+    public Phone getPhone(){
         phoneBuilder.creatingPhone();
 
         phoneBuilder.addMaker();

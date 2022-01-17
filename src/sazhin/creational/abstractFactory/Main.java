@@ -8,7 +8,7 @@ public class Main {
         printHeroInfo(thorFactory);
     }
 
-    static void printHeroInfo(HeroFactory heroFactory) {
+    public static void printHeroInfo(HeroFactory heroFactory) {
         System.out.println("Name: " + heroFactory.getClass().getSimpleName());
         System.out.println("Weapon: " + heroFactory.getWeapon().getClass().getSimpleName());
         System.out.println("Super power: " + heroFactory.getSuperPower().getClass().getSimpleName());

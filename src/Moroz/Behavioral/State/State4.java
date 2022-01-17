@@ -1,8 +1,10 @@
-package Moroz.creational.Protype;
+package Moroz.Behavioral.State;
 
-public class Main {
-    public static void main(String[] args) {
+import Moroz.creational.Protype.MyObject;
 
+public class State4 implements State{
+    @Override
+    public void run() {
         MyObject firstMyObject = new MyObject("firstName", 1000, true);
 
         MyObject secondMyObject = (MyObject) firstMyObject.copy();
@@ -11,6 +13,4 @@ public class Main {
         System.out.println("First: "+firstMyObject + "\n" + "Second: "+secondMyObject);
         System.out.println(firstMyObject==secondMyObject);
     }
-
-
 }
