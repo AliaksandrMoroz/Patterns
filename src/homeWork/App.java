@@ -17,10 +17,9 @@ public class App {
         humans.forEach(System.out::println);
 
         System.out.println("Вариант 1: ");
-        App.collectHumanVar1(humans);
-
+        collectHumanVar1(humans);
         System.out.println("Вариант 2: ");
-        App.collectHumanVar2(humans);
+        collectHumanVar2(humans);
     }
 
     public static void collectHumanVar1(List<Human> humans) {
