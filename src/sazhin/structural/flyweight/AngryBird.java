@@ -1,7 +1,7 @@
 package sazhin.structural.flyweight;
 
 public class AngryBird implements Bird {
-    private String color;
+    private final String color;
 
 
     public AngryBird(String color){

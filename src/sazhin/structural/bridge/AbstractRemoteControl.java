@@ -2,7 +2,7 @@ package sazhin.structural.bridge;
 
 public abstract class AbstractRemoteControl {
 
-    private ITV tv;
+    private final ITV tv;
 
     public AbstractRemoteControl(ITV tv){
         this.tv = tv;
